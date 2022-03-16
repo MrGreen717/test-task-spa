@@ -1,0 +1,67 @@
+.UserProfile {
+	width: 1400px;
+	max-width: 70vw;
+	min-width: 70vw;
+	padding: 20px 50px;
+	box-sizing: border-box;
+
+	.title {
+		width: 100%;
+		font-weight: bold;
+	}
+
+	.userInfo {
+		background: #ffffff;
+		border: 1px solid #f3f3f3;
+		box-sizing: border-box;
+		border-radius: 8px;
+		margin-top: 20px;
+		padding: 20px;
+
+		.row {
+			.titleComment {
+				margin: 15px 0 5px 0;
+			}
+
+			.inputComment {
+				width: 100%;
+				max-width: 100%;
+				min-width: 100%;
+				min-height: 55px;
+				padding: 15px;
+
+				background: #ffffff;
+				border: 1px solid #d8d8d8;
+				box-sizing: border-box;
+				border-radius: 5px;
+
+				&:disabled {
+					color: rgba(0, 0, 0, 0.3);
+				}
+
+				&:focus-visible {
+					outline: none;
+				}
+			}
+		}
+	}
+
+	.button {
+		width: 150px;
+		height: 30px;
+		padding: 5px;
+
+		background: #52cf4f;
+		color: #ffffff;
+		border-radius: 5px;
+		border: 0;
+
+		&:hover {
+			cursor: pointer;
+		}
+
+		&:disabled {
+			background: #afafaf;
+		}
+	}
+}
